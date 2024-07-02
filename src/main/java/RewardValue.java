@@ -5,12 +5,17 @@ public class RewardValue
     double cashValue = 0;
 
     public RewardValue(double cash) {
-        setCash(cash);
+        cashValue = cash
         setMiles();
+    }
+
+    public RewardValue(int miles) {
+        milesValue = miles;
+        setCash();
     }
     
     private void setCash(double cash) {
-        cashValue = cash;
+        cashValue = milesValue/0.0035;
     }
     
     private void setMiles (){
