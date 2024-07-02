@@ -1,8 +1,8 @@
 public class RewardValue
 {
     
-    double milesValue = 0;
-    double cashValue = 0;
+    private double milesValue = 0;
+    private double cashValue = 0;
 
     public RewardValue(double cash) {
         cashValue = cash
